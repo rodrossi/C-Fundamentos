@@ -23,3 +23,6 @@ C:\GrupoEstudosAda-Web\C-Fundamentos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug
 C:\GrupoEstudosAda-Web\C-Fundamentos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
 C:\GrupoEstudosAda-Web\C-Fundamentos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form4.resources
 C:\GrupoEstudosAda-Web\C-Fundamentos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form5.resources
+C:\GrupoEstudosAda-Web\C-Fundamentos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form6.resources
+C:\GrupoEstudosAda-Web\C-Fundamentos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmEnum.resources
+C:\GrupoEstudosAda-Web\C-Fundamentos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Array.resources

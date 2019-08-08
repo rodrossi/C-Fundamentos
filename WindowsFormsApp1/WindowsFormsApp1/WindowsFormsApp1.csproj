@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Array.cs">
+    <Compile Include="frmAluno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Array.Designer.cs">
-      <DependentUpon>Array.cs</DependentUpon>
+    <Compile Include="frmAluno.Designer.cs">
+      <DependentUpon>frmAluno.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -88,6 +88,42 @@
     <Compile Include="Form6.Designer.cs">
       <DependentUpon>Form6.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormExercicio1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExercicio1.Designer.cs">
+      <DependentUpon>FormExercicio1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExercicio2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExercicio2.Designer.cs">
+      <DependentUpon>FormExercicio2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExercicio3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExercicio3.Designer.cs">
+      <DependentUpon>FormExercicio3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExercicio4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExercicio4.Designer.cs">
+      <DependentUpon>FormExercicio4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExercicio5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExercicio5.Designer.cs">
+      <DependentUpon>FormExercicio5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAlunos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAlunos.Designer.cs">
+      <DependentUpon>FrmAlunos.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmEnum.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,8 +132,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Array.resx">
-      <DependentUpon>Array.cs</DependentUpon>
+    <EmbeddedResource Include="frmAluno.resx">
+      <DependentUpon>frmAluno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -116,6 +152,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form6.resx">
       <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExercicio1.resx">
+      <DependentUpon>FormExercicio1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExercicio2.resx">
+      <DependentUpon>FormExercicio2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExercicio3.resx">
+      <DependentUpon>FormExercicio3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExercicio4.resx">
+      <DependentUpon>FormExercicio4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExercicio5.resx">
+      <DependentUpon>FormExercicio5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAlunos.resx">
+      <DependentUpon>FrmAlunos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEnum.resx">
       <DependentUpon>frmEnum.cs</DependentUpon>

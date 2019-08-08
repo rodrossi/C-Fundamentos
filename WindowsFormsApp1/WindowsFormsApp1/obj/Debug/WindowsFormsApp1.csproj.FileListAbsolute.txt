@@ -25,4 +25,10 @@ C:\GrupoEstudosAda-Web\C-Fundamentos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug
 C:\GrupoEstudosAda-Web\C-Fundamentos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form5.resources
 C:\GrupoEstudosAda-Web\C-Fundamentos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form6.resources
 C:\GrupoEstudosAda-Web\C-Fundamentos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmEnum.resources
-C:\GrupoEstudosAda-Web\C-Fundamentos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Array.resources
+C:\GrupoEstudosAda-Web\C-Fundamentos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormExercicio1.resources
+C:\GrupoEstudosAda-Web\C-Fundamentos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormExercicio2.resources
+C:\GrupoEstudosAda-Web\C-Fundamentos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormExercicio3.resources
+C:\GrupoEstudosAda-Web\C-Fundamentos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormExercicio4.resources
+C:\GrupoEstudosAda-Web\C-Fundamentos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormExercicio5.resources
+C:\GrupoEstudosAda-Web\C-Fundamentos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmAlunos.resources
+C:\GrupoEstudosAda-Web\C-Fundamentos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmAluno.resources

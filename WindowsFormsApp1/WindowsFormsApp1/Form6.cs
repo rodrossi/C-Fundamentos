@@ -50,5 +50,10 @@ namespace WindowsFormsApp1
             
             
         }
+
+        private void TxtMeses_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

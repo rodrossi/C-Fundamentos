@@ -87,6 +87,7 @@
             this.txtMeses.Name = "txtMeses";
             this.txtMeses.Size = new System.Drawing.Size(100, 20);
             this.txtMeses.TabIndex = 5;
+            this.txtMeses.TextChanged += new System.EventHandler(this.TxtMeses_TextChanged);
             // 
             // btnCancelar
             // 

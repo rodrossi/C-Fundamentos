@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{5DF5AA5D-7831-4065-AD50-5FB4DDFD94EC}</ProjectGuid>
+    <ProjectGuid>{884C5561-85EC-4340-A621-951FD8A315BA}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Webforms_Aula01</RootNamespace>
-    <AssemblyName>Webforms-Aula01</AssemblyName>
+    <RootNamespace>WebForms_Aula01</RootNamespace>
+    <AssemblyName>WebForms-Aula01</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -67,23 +67,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Aula-lista.aspx" />
+    <Content Include="Aula-Lista.aspx" />
     <Content Include="css\layouts\side-menu-old-ie.css" />
     <Content Include="css\layouts\side-menu.css" />
     <Content Include="Global.asax" />
     <Content Include="js\ui.js" />
     <Content Include="Login.aspx" />
+    <Content Include="Paginas\Montadora\Add.aspx" />
+    <Content Include="Paginas\Montadora\List.aspx" />
     <Content Include="Paginas\Principal.aspx" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="WebFormAula1.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aula-lista.aspx.cs">
-      <DependentUpon>Aula-lista.aspx</DependentUpon>
+    <Compile Include="Aula-Lista.aspx.cs">
+      <DependentUpon>Aula-Lista.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Aula-lista.aspx.designer.cs">
-      <DependentUpon>Aula-lista.aspx</DependentUpon>
+    <Compile Include="Aula-Lista.aspx.designer.cs">
+      <DependentUpon>Aula-Lista.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -102,6 +104,20 @@
     <Compile Include="Master.Master.designer.cs">
       <DependentUpon>Master.Master</DependentUpon>
     </Compile>
+    <Compile Include="Paginas\Montadora\Add.aspx.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Montadora\Add.aspx.designer.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Montadora\List.aspx.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Montadora\List.aspx.designer.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Paginas\Principal.aspx.cs">
       <DependentUpon>Principal.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -111,12 +127,12 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util\Util.cs" />
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="WebFormAula1.aspx.cs">
+      <DependentUpon>WebFormAula1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="WebFormAula1.aspx.designer.cs">
+      <DependentUpon>WebFormAula1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -135,7 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Business\Business.csproj">
-      <Project>{04ff4ca5-6035-4617-8541-9b9fd30beee4}</Project>
+      <Project>{a3db4d11-82e5-4858-a481-20ab7ae0cc07}</Project>
       <Name>Business</Name>
     </ProjectReference>
   </ItemGroup>
@@ -152,9 +168,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>54535</DevelopmentServerPort>
+          <DevelopmentServerPort>52637</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:54535/</IISUrl>
+          <IISUrl>http://localhost:52637/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

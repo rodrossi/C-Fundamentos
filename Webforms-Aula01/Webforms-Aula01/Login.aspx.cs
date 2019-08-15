@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 using Business;
 
 
-namespace Webforms_Aula01
+namespace WebForms_Aula01
 {
     public partial class Login : System.Web.UI.Page
     {
@@ -15,27 +15,29 @@ namespace Webforms_Aula01
         {
 
         }
+        (string usuario, string senha) login;
 
-        string usuario = "admin";
-        string senha = "admin";
-        (String usuario, string senha) login;
         protected void btnLogin_Click(object sender, EventArgs e)
         {
             login.usuario = "admin";
-            login.senha = "admin";
+            login.senha = "senha";
 
             UsuarioBLL usuarioBLL = new UsuarioBLL();
+
             if (usuarioBLL.Logar(txtLogin.Text, txtSenha.Text))
             {
 
                 Session[Util.Util.SessaoUsuarioLogado] = usuarioBLL.UsuarioLogado;
 
-                Response.Redirect("Principal.aspx");
+                Response.Redirect("/Paginas/Principal.aspx");
             }
             else
             {
-                lblMensagem.Text = ("Usuario Invalido");
+                lblMensagem.Text = "Usuario e/ou invalido";
             }
+
         }
+
+
     }
 }

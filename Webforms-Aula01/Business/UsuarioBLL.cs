@@ -9,14 +9,14 @@ namespace Business
 {
     public class UsuarioBLL
     {
-        public Usuario UsuarioLogado
+        public UsuarioModel UsuarioLogado
         {
             get
             {
-                Usuario usr = new Usuario
+                UsuarioModel usr = new UsuarioModel
                 {
                     Login = "admin",
-                    Nome = "administrador"
+                    Nome = "Administrador"
                 };
 
                 return usr;
@@ -30,6 +30,5 @@ namespace Business
             }
             return false;
         }
-
     }
 }

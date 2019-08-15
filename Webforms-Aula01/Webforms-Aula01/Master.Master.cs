@@ -5,13 +5,16 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Webforms_Aula01
+namespace WebForms_Aula01
 {
     public partial class Master : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session[Util.Util.SessaoUsuarioLogado] == null)
+            {
+                Response.Redirect("/login.aspx");
+            }
         }
     }
 }

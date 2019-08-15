@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{04FF4CA5-6035-4617-8541-9B9FD30BEEE4}</ProjectGuid>
+    <ProjectGuid>{A3DB4D11-82E5-4858-A481-20AB7AE0CC07}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Business</RootNamespace>
@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Usuario.cs" />
+    <Compile Include="Model\MontadoraModel.cs" />
+    <Compile Include="Model\UsuarioModel.cs" />
+    <Compile Include="MontadoraBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UsuarioBLL.cs" />
   </ItemGroup>

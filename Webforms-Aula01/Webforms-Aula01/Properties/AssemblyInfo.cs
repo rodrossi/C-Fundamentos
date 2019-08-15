@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Webforms_Aula01")]
+[assembly: AssemblyTitle("WebForms_Aula01")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Webforms_Aula01")]
+[assembly: AssemblyProduct("WebForms_Aula01")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("5df5aa5d-7831-4065-ad50-5fb4ddfd94ec")]
+[assembly: Guid("884c5561-85ec-4340-a621-951fd8a315ba")]
 
 // Version information for an assembly consists of the following four values:
 //

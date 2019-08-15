@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Webforms_Aula01 {
+namespace WebForms_Aula01 {
     
     
     public partial class Login {

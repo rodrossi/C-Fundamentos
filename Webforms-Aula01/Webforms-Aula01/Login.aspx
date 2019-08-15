@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="Webforms_Aula01.Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="WebForms_Aula01.Login" %>
 
 <!DOCTYPE html>
 
@@ -26,14 +26,11 @@
 
             <div class="pure-control-group">
                 <label for="password">Password</label>
-                <asp:TextBox ID="txtSenha" TextMode ="Password" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtSenha" textmode ="Password" runat="server"></asp:TextBox>
             </div>
-
-
+            
             <div class="pure-controls">
-
                 <asp:Button ID="btnLogin" runat="server" Text="Login" CssClass="pure-button pure-button-primary" OnClick="btnLogin_Click" />
-                
             </div>
             <asp:Label ID="lblMensagem" runat="server" Text=""></asp:Label>
         </fieldset>

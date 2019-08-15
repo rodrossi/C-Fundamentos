@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
 
-namespace Webforms_Aula01
+namespace WebForms_Aula01
 {
     public class Global : System.Web.HttpApplication
     {

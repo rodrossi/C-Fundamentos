@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Aula-lista.aspx.cs" Inherits="Webforms_Aula01.Aula_lista" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Aula-Lista.aspx.cs" Inherits="WebForms_Aula01.Aula_Lista" %>
 
 <!DOCTYPE html>
 
@@ -18,25 +18,23 @@
 </head>
 <body>
     <form id="form1" runat="server" class="pure-form pure-form-stacked">
-        <fieldset>
-            <legend>A Stacked Form</legend>
+      <fieldset>
+        <legend>A Stacked Form</legend>
+          <%--  --%>
+        <label for="email">Email</label>
+          <asp:TextBox ID="txtEmail" runat="server"/>
+        <label for="lstEmails">Lista de Emails</label>
+        <asp:ListBox ID="lstEmails" runat="server" Height="300px"/>
 
-            <label for="email">Email</label>
-            <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
 
+        <asp:DropDownList ID="ddlEmails" runat ="server" OnSelectedIndexChanged="ddlEmails_SelectedIndexChanged" Width="200px" />
+        
+        <asp:Button ID ="btnAdd" runat ="server"  Text ="Add" Cssclass="pure-button pure-button-primary" OnClick="btnAdd_Click" />
 
-            <label for="password">Lista de Emails</label>
+        <asp:Button ID="btnRemover" runat="server" Text="Remover" Cssclass="button-error pure-button" OnClick="btnRemover_Click" />
 
-           <asp:ListBox ID="lstEnails" runat="server" Height="300px"></asp:ListBox>
-
-            <asp:Button ID="btnAdd" runat="server" Text="Add"  CssClass="pure-button pure-button-primary" OnClick="btnAdd_Click" />
-
-            <asp:DropDownList ID="ddlEmails" runat="server" OnSelectedIndexChanged="ddlEmails_SelectedIndexChanged" Width="200px"></asp:DropDownList>
-           
-            <asp:Button ID="btnRemover" runat="server" Text="Remover" CssClass="pure-button pure-button-primary" OnClick="btnRemover_Click" />
-
-            
-        </fieldset>
+        
+    </fieldset>
     </form>
 </body>
 </html>

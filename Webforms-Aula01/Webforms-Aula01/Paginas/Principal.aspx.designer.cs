@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Webforms_Aula01.Paginas
+namespace WebForms_Aula01.Paginas
 {
 
 

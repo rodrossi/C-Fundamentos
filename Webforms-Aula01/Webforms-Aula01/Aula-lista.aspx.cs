@@ -16,14 +16,14 @@ namespace Webforms_Aula01
 
         protected void btnAdd_Click(object sender, EventArgs e)
         {
-            lstEnails.Items.Add(txtEmail.Text);
+            lstEmails.Items.Add(txtEmail.Text);
             txtEmail.Text = string.Empty;
         }
 
         protected void btnRemover_Click(object sender, EventArgs e)
         {
-            string itemSelecionado = lstEnails.SelectedValue;
-            lstEnails.Items.Remove(itemSelecionado);
+            string itemSelecionado = lstEmails.SelectedValue;
+            lstEmails.Items.Remove(itemSelecionado);
              
         }
 

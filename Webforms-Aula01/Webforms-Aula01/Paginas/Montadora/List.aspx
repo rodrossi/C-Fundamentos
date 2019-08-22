@@ -9,8 +9,11 @@
     </div>
     <div class ="content">
     
-        <asp:GridView ID="gvMontadora" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None">
+        <asp:GridView ID="gvMontadora" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" OnRowEditing="gvMontadora_RowEditing">
             <AlternatingRowStyle BackColor="White" />
+            <Columns>
+                <asp:CommandField InsertVisible="False" ShowCancelButton="False" ShowDeleteButton="True" ShowEditButton="True" />
+            </Columns>
             <EditRowStyle BackColor="#2461BF" />
             <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
             <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />

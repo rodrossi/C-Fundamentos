@@ -22,5 +22,10 @@ namespace WebForms_Aula01.Paginas.Montadora
         {
             Response.Redirect("add.aspx");
         }
+
+        protected void gvMontadora_RowEditing(object sender, GridViewEditEventArgs e)
+        {
+
+        }
     }
 }

@@ -4,3 +4,9 @@ D:\CURSO\C#_NET\C-_FUNDAMENTOS\WebForms-Aula01\Business\obj\Debug\Business.cspro
 D:\CURSO\C#_NET\C-_FUNDAMENTOS\WebForms-Aula01\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
 D:\CURSO\C#_NET\C-_FUNDAMENTOS\WebForms-Aula01\Business\obj\Debug\Business.dll
 D:\CURSO\C#_NET\C-_FUNDAMENTOS\WebForms-Aula01\Business\obj\Debug\Business.pdb
+C:\GrupoEstudosAda-Web\C-Fundamentos\Webforms-Aula01\Business\bin\Debug\Business.dll
+C:\GrupoEstudosAda-Web\C-Fundamentos\Webforms-Aula01\Business\bin\Debug\Business.pdb
+C:\GrupoEstudosAda-Web\C-Fundamentos\Webforms-Aula01\Business\obj\Debug\Business.csprojAssemblyReference.cache
+C:\GrupoEstudosAda-Web\C-Fundamentos\Webforms-Aula01\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\GrupoEstudosAda-Web\C-Fundamentos\Webforms-Aula01\Business\obj\Debug\Business.dll
+C:\GrupoEstudosAda-Web\C-Fundamentos\Webforms-Aula01\Business\obj\Debug\Business.pdb

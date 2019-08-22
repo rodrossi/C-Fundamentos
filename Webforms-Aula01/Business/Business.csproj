@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Acesso.cs" />
     <Compile Include="Model\MontadoraModel.cs" />
     <Compile Include="Model\UsuarioModel.cs" />
     <Compile Include="MontadoraBLL.cs" />

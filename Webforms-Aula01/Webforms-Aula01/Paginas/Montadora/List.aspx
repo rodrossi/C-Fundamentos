@@ -8,39 +8,20 @@
         <h1>Listagem de Montadoras</h1>
     </div>
     <div class ="content">
-    <table class="pure-table pure-table-bordered">
-    <thead>
-        <tr>
-            <th>#</th>
-            <th>Montadora</th>
-            <th>Logo</th>
-            
-        </tr>
-    </thead>
-
-    <tbody>
-        <tr>
-            <td>1</td>
-            <td>Honda</td>
-            <td>LOGO1</td>
-            
-        </tr>
-
-        <tr>
-            <td>2</td>
-            <td>Toyota</td>
-            <td>LOGO2</td>
-            
-        </tr>
-
-        <tr>
-            <td>3</td>
-            <td>Hyundai</td>
-            <td>Logo3</td>
-            
-        </tr>
-    </tbody>
-</table>
+    
+        <asp:GridView ID="gvMontadora" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None">
+            <AlternatingRowStyle BackColor="White" />
+            <EditRowStyle BackColor="#2461BF" />
+            <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+            <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+            <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
+            <RowStyle BackColor="#EFF3FB" />
+            <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
+            <SortedAscendingCellStyle BackColor="#F5F7FB" />
+            <SortedAscendingHeaderStyle BackColor="#6D95E1" />
+            <SortedDescendingCellStyle BackColor="#E9EBEF" />
+            <SortedDescendingHeaderStyle BackColor="#4870BE" />
+        </asp:GridView>
 
         <asp:Button ID="btnNovaMontadora" runat="server" Text="Cadastar Nova"  CssClass ="pure-button pure-button-primary" OnClick="btnNovaMontadora_Click" />
         

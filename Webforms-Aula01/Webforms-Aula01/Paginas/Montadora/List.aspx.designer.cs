@@ -13,6 +13,15 @@ namespace WebForms_Aula01.Paginas.Montadora {
     public partial class List {
         
         /// <summary>
+        /// gvMontadora control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gvMontadora;
+        
+        /// <summary>
         /// btnNovaMontadora control.
         /// </summary>
         /// <remarks>
